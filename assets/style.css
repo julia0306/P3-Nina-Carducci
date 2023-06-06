@@ -47,7 +47,7 @@ h2 {
 .nav ul {
 	display: flex;
 	list-style-type: none;
-	font-size: 0.85rem;
+	font-size: 1rem;
 	margin-bottom: 0;
 }
 
@@ -354,7 +354,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 650px) {
+@media all and (max-width: 652px) {
 	.gallery ul{
 		font-size: 0.8rem
 	}
