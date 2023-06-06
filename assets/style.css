@@ -69,6 +69,8 @@ body {
 
 .picture img {
 	width: 100%;
+	/* Adaptation de la hauteur en fonction de la largeur pour la photo de profil de N.Carducci */
+	height: auto;
 
 }
 #about-me {
@@ -90,9 +92,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -258,6 +257,10 @@ input[type="submit"] {
 	#about-me h6, #about-me p {
 		width: 100%;
 	}
+	/* Modification largeur de formulaire. Meilleur responsive */
+	form{
+		width: 100%;
+	}
 }
 
 @media all and (max-width: 1000px) {
@@ -317,6 +320,9 @@ input[type="submit"] {
 		right: 0;
 		z-index: -1;
 	}
+	form{
+		width: 100%;
+	}
 }
 
 @media all and (max-width: 650px) {
@@ -346,6 +352,8 @@ input[type="submit"] {
 		padding-inline: 2em;
 		padding-block: 2em;
 	}
+	
+	/* Modification largeur de formulaire. Meilleur responsive */
 	form {
 		width: 100%;
 	}

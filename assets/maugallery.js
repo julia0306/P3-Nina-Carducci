@@ -150,6 +150,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
+         /* changement de l'index pour afficher l'image précédente */
           index = i-1 ;
         }
       });
@@ -189,6 +190,7 @@
 
       $(imagesCollection).each(function(i) {
         if ($(activeImage).attr("src") === $(this).attr("src")) {
+         /* changement de l'index pour afficher l'image suivante */
           index = i+1;
         }
       });

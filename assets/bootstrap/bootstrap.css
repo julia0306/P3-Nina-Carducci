@@ -6931,8 +6931,11 @@ textarea.form-control-lg {
   width: 75% !important;
 }
 
+/* Changement de la hauteur pour qu'elle s'adapte en fonction de la largeur d'écran / de la photo */
+
 .w-100 {
   width: 100% !important;
+  height: auto;
 }
 
 .w-auto {
