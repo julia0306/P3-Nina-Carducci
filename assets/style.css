@@ -124,11 +124,6 @@ h2 {
 .nav-pills .nav-link {
 	color: #000
 }
-
-.nav-pills :hover{
-	cursor:pointer;
-}
-
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
@@ -360,9 +355,6 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 652px) {
-	h1{
-		text-align: center;
-	}
 	.gallery ul{
 		font-size: 0.8rem
 	}
@@ -402,20 +394,5 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
-	}
-}
-
-@media all and (max-width: 500px){
-	.top-header a {
-		font-size: 0.8rem;
-	}
-	.gallery ul{
-			font-size: 0.8rem
-		}
-
-}
-@media all and (max-width: 460px){
-	.gallery ul{
-		font-size: 0.6rem
 	}
 }
