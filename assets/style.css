@@ -355,6 +355,9 @@ input[type="submit"] {
 }
 
 @media all and (max-width: 652px) {
+	h1{
+		text-align: center;
+	}
 	.gallery ul{
 		font-size: 0.8rem
 	}
