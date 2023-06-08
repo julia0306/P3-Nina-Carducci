@@ -15,8 +15,8 @@
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="assets/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet"  href="assets/bootstrap/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/style.css">
 	
 	<!-- Ajout des balises méta pour les réseaux -->
 
@@ -37,9 +37,8 @@
 </head>
 <body>
 	<!-- Utilisation d'une balise header à la place d'une simple balise div  -->
-	<header>
+	<header class="top-header">
 		<!-- Création d'un titre de niveau 1 -->
-		<div class="top-header">
 			<h1>Nina Carducci <span>Photographe à Bordeaux</span></h1>
 			<nav class="nav">   
 				<ul>
@@ -65,8 +64,10 @@
 					</li>
 				</ul>
 			</nav>
-		</div>
-		<div id="hero-header">
+	</header>
+		<!-- Ajout d'une balise "main" pour le contenu principal du site -->
+	<main>
+		<section id="hero-header">
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -126,10 +127,8 @@
 					<span class="carousel-control-next-icon" aria-hidden="true"></span>
 				</button>
 			</div>
-		</div>
-	</header>
-	<!-- Ajout d'une balise "main" pour le contenu principal du site -->
-	<main>
+		</section>
+
 		<!-- remplacement des div par des sections lorsque c'est pertinent -->
 		<section id="about">
 			<div class="picture left">
