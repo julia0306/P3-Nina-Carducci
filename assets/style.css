@@ -8,6 +8,7 @@ body {
 	font-style: normal;
 }
 
+/* HEADINGS */
 h1 {
     font-size: 1.625rem
 }
@@ -31,6 +32,7 @@ h2 {
     padding-top: 3vh
 }
 
+/* HEADER */
 
 .top-header {
 	background-color: white;
@@ -60,6 +62,7 @@ h2 {
 	color: #000
 }
 
+/* SECTION 1 - ABOUT-ME */
 #about {
 	display: flex;
 	background-color: #F6D2B8;
@@ -110,6 +113,7 @@ h2 {
 	font-size: .875rem;
 }
 
+/* SECTION 2 - GALLERY */
 .title{
 	text-align: center;
 }
@@ -165,25 +169,25 @@ h2 {
 	padding-block: 3em;
 }
 .quote__text {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-style: italic;
 	font-weight: 300;
 	font-size: calc(1.375rem + 1vw)
 
 }
 .quote__author {
-	font-family: Spectral;
+	font-family: 'Spectral';
 	font-weight: 800;
 	font-size: 1.5rem;
 	display: block;
-	text-align: center;
 }
 
 .quote-info{
 	font-size: 1rem;
 	display: block;
-	text-align: center;
 }
+
+/* SECTION 3 - SERVICES */
 
 #services {
 	margin: auto;
@@ -219,6 +223,18 @@ h2 {
 	justify-content: space-between;
 	z-index: 1;
 }
+.service__price{
+	font-family: "Inter";
+	font-size:1.4rem;
+	font-weight: 300;
+	display: flex;
+	flex-direction: column;
+}
+
+.price__details{
+	font-size: 1rem
+}
+/* FOOTER */
 
 #contact {
 	margin: auto;
@@ -231,6 +247,26 @@ h2 {
 #contact .container {
 	display: flex;
 }
+
+.contact__info{
+	font-family: "Inter";
+	background-color: #e5e2ce;
+	color: black;
+	height:auto;
+	text-align: center;
+	padding:1vh 0;
+	border: none;
+}
+.contact__info p{
+	margin:0;
+	font-size: 0.8rem
+}
+hr{
+	border: 1.5px solid black;
+	background-color: #000;
+	margin: 0;
+}
+
 .picture.right::before {
 	content: ' ';
 	background-color: #BEB45A;
@@ -241,10 +277,12 @@ h2 {
 	right: 0;
 	z-index: -1;
 }
+
 .form-container {
 	flex : 2;
 
 }
+
 form {
 	display: flex;
 	flex-direction: column;
@@ -269,13 +307,15 @@ form textarea {
 	font-size: 1.2rem;
 	margin-bottom: 20px;
 }
+
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
 
+/* MEDIA QUERIES */
+
 @media all and (max-width: 1180px) {
-	
 	.picture {
 		flex : 2;
 	}
@@ -330,7 +370,6 @@ input[type="submit"] {
 	.service__description{
 		margin-bottom: 1em;
 	}
-
 	#services .container::before{
 		width: 30%;
 		height: 100%;
@@ -339,7 +378,6 @@ input[type="submit"] {
 		left: auto;
 		z-index: 0;
 	}
-
 	#contact .container {
 		flex-direction: column;
 	}
@@ -359,7 +397,7 @@ input[type="submit"] {
 	}
 }
 
-@media all and (max-width: 652px) {
+@media all and (max-width: 661px) {
 	h1{
 		text-align: center;
 	}
@@ -395,7 +433,6 @@ input[type="submit"] {
 		padding-inline: 2em;
 		padding-block: 2em;
 	}
-	
 	/* Modification largeur de formulaire. Meilleur responsive */
 	form {
 		width: 100%;
@@ -403,4 +440,15 @@ input[type="submit"] {
 	.picture {
 		width: 80%;
 	}
+}
+
+@media all and (max-width: 381px){
+	.top-header .nav li {
+		flex: 1;
+		padding-block: 0.7em;
+		font-size: 0.7rem;
+		text-align: center;}
+	.gallery ul{
+			font-size: 0.7rem
+		}
 }
