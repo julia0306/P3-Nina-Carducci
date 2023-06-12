@@ -8,6 +8,7 @@
 @font-face {
     font-family: 'Spectral';
     src: url("../assets/fonts/spectral-light.woff") format('woff');
+	font-display: swap;
 }
 
 * {
