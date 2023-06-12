@@ -257,10 +257,12 @@ h2 {
 	padding:1vh 0;
 	border: none;
 }
+
 .contact__info p{
 	margin:0;
 	font-size: 0.8rem
 }
+
 hr{
 	border: 1.5px solid black;
 	background-color: #000;
