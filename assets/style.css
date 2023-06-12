@@ -10,12 +10,12 @@
 }
 
 * {
-	font-family: 'inter';
+	font-family: 'inter', sans-serif;
 	font-style: normal;
 }
 
 .about-me__introduction, .quote, .quote__info, .quote__author, .quote__text {
-	font-family: 'Spectral';
+	font-family: 'Spectral', serif;
 }
 
 /* MAIN SETTINGS */
