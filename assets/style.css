@@ -1,8 +1,7 @@
 /* FONTS */
 @font-face {
     font-family: 'inter';
-    src: url("../assets/fonts/inter.woff") format('woff'),
-		 url("../assets/fonts/inter.woff2") format('woff2');
+    src: url("../assets/fonts/inter.woff") format('woff');
 	font-display: swap;
 }
 @font-face {
