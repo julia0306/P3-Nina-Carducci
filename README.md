@@ -1,4 +1,4 @@
-# Optimisation du site portfolio de Nina-Carducci
+# Optimisation du site portfolio de Nina Carducci
 ![Project Cover](https://i.ibb.co/bKRxT51/N-Carducci.jpg)
 
 ## Description
