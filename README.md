@@ -11,7 +11,7 @@ Afin de réaliser ce travail d'optimisation de site web, j'ai utilisé les outil
 - Les Chrome DevTools pour débugger l'application
 
 ## Résultats obtenus 
-![Results](https://i.ibb.co/hmZbkY2/carducci-lighthoused.webp)
+![Results](https://i.ibb.co/RH3J0H1/Carducci-lighthouse-D.jpg)
 
 ## Productions associées 
 Ce projet a donné lieu à la publication du cahier de recettes suivant : https://www.docdroid.net/zVVnx24/taylor-julia-2-rapport-intervention-062023-pdf 
